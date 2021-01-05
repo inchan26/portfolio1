@@ -1,0 +1,14 @@
+@import "./header.css";
+@import "./body.css";
+@import "./footer.css";
+@import "./media.css";
+
+html,
+body,
+ul,
+li,
+a {
+  padding: 0px;
+  margin: 0px;
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,71 @@
+/*header part*/
+
+/*Helper*/
+.hide-desktop {
+  display: none;
+}
+
+.sidebar-main {
+  position: fixed;
+  width: 100vw;
+  background-color: rgb(60, 61, 60);
+  border-bottom: 2px solid whitesmoke;
+
+  /*Layout*/
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 20px 1fr 1fr 50px;
+}
+
+.sidebar-main .title-container {
+  padding-left: 20px;
+  text-align: left;
+  align-items: center;
+  color: cyan;
+  grid-column: 2;
+  font-size: 1.2em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.sidebar-main .menu-container {
+  text-align: center;
+  align-items: center;
+
+  /*layout*/
+  display: grid;
+  grid-column: 3;
+  list-style: none;
+  grid-auto-flow: column;
+}
+
+.sidebar-main .menu-container a {
+  color: cyan;
+  font-weight: bold;
+  font-size: 1.2em;
+  font-style: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar-main .menu-container li :hover {
+  color: white;
+  cursor: pointer;
+}
+.sidebar-main .menu-container li ::after {
+  transform: scale(0, 1);
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: #45f3ff;
+  transition: transform 200ms ease-in;
+}
+
+.sidebar-main .icon-container {
+  font-size: 1.2em;
+  margin: 5px 5px 5px 5px;
+  place-self: center;
+  text-align: left;
+  color: cyan;
+  grid-column: 4;
+}

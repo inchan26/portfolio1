@@ -1,0 +1,175 @@
+/*body*/
+
+.main {
+  padding: 0px;
+  margin: 0px;
+  background-color: white;
+  height: 100vh;
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-rows: auto;
+}
+
+.main #home {
+  scroll-margin-top: 200px;
+  margin-top: 50px;
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: auto;
+}
+
+.main #home .left {
+  text-align: center;
+  background-color: rgb(61, 61, 60);
+  padding: 10px 20px;
+}
+
+.main #home .left h2 {
+  color: cyan;
+  font-size: 2em;
+  font-weight: BOLD;
+}
+.main #home .left i {
+  color: white;
+  font-size: 1.2em;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.main #home .left .img {
+  height: 190px;
+  width: 190px;
+  border-radius: 50%;
+  margin-top: 90px;
+}
+
+.main #about {
+  scroll-margin-top: 50px;
+  background-color: gray;
+  height: 100vh;
+  width: 100vw;
+  padding-top: 20px;
+}
+.main #about h3 {
+  padding-top: 10px;
+  margin: 0px;
+  text-align: center;
+  color: cyan;
+  font-size: 2em;
+}
+.main #about p {
+  margin: 0px;
+  padding: 40px 100px;
+  color: cyan;
+  text-align: left;
+  font-size: 1.5em;
+}
+
+/*****************************************/
+.main #skills {
+  scroll-margin-top: 50px;
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+}
+#skills h1 {
+  text-align: center;
+  margin: 20px 20px;
+  font-size: 2em;
+  color: cyan;
+}
+
+#skills li {
+  margin: 20px 100px;
+  color: cyan;
+  font-size: 0.8em;
+  list-style: none;
+}
+
+.bar {
+  width: 90%;
+  background-color: black;
+  display: block;
+  height: 5px;
+  border: 2px solid cyan;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #2187e7b3;
+}
+.bar span {
+  height: 5px;
+  float: left;
+  background-color: cyan;
+}
+
+.html {
+  width: 90%;
+  animation: html 2s;
+}
+
+.css {
+  width: 65%;
+  animation: css 2s;
+}
+
+.javascript {
+  width: 70%;
+  animation: javascript 2s;
+}
+
+.photoshop {
+  width: 80%;
+  animation: photoshop 2s;
+}
+
+.mysql {
+  width: 20%;
+  animation: mysql 2s;
+}
+
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
+  }
+}
+
+@keyframes javascript {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes photoshop {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes mysql {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 20%;
+  }
+}

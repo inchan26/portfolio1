@@ -170,7 +170,7 @@ span {
 
 /*Hero Section*/
 #hero {
-  background-image: url(./images../background/build.jpg);
+  background-image: url(images./build.jpg);
   background-size: cover;
   background-position: top center;
   position: relative;
